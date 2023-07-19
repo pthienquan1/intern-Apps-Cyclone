@@ -1,0 +1,666 @@
+.user-infomation {
+  display: flex;
+  justify-content: space-between;
+
+  .userName-role {
+    margin-left: 215px;
+  }
+  .userName-role h2 {
+    color: #a303a0;
+    font-size: 30px;
+  }
+  .userName-role p {
+    color: #a303a0;
+    font-size: 18px;
+  }
+  .follow-btn {
+    margin-right: 54px;
+
+    .btnSchedule {
+      width: 172px;
+      height: 44.675px;
+      border: 1px solid #a303a0;
+      color: #a303a0;
+      background-color: #fff;
+    }
+  }
+  .follow-btn button {
+    border-radius: 13px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .follow-btn button:hover {
+    background-color: #fbb03b;
+  }
+}
+
+.recomman-friend-container {
+  display: flex;
+  flex-direction: column;
+}
+.recomman-friend-container {
+  .recomand-friend1 {
+    background: #fff;
+    width: 260px;
+    margin-left: 29px;
+    border-radius: 10px;
+    padding: 22px 10px 40px 45px;
+
+    h1 {
+      color: #490057;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .friend {
+      margin-top: 27px;
+      display: flex;
+      .friend-img {
+        width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        border-radius: 34px;
+        background-color: rgb(96, 169, 229);
+        background-repeat: no-repeat;
+        object-fit: cover;
+      }
+
+      .friend-info {
+        margin-left: 10px;
+        h2 {
+          color: #490057;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: bold;
+          line-height: normal;
+        }
+        p {
+          color: #490057;
+          font-size: 14px;
+          font-weight: 100;
+        }
+      }
+
+      .time-onl {
+        font-size: 12px;
+        color: #b6b2b2;
+        margin-left: 30px;
+        margin-top: 5px;
+      }
+      .friend-img {
+        .online {
+          position: relative;
+          top: -15px;
+          left: 25px;
+          width: 8px;
+          height: 8px;
+          background-color: #8bc34a;
+          border-radius: 13px;
+          border: 3px solid #fafafa;
+        }
+        .busy {
+          position: relative;
+          top: -15px;
+          left: 25px;
+          width: 8px;
+          height: 8px;
+          background-color: #ff8f6b;
+          border-radius: 13px;
+          border: 3px solid #fafafa;
+        }
+      }
+    }
+  }
+  .recomand-friend1:last-child {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  body {
+    background-color: green;
+  }
+  .container {
+    .side-bar-menu-left {
+      position: fixed;
+      width: 218px;
+      height: 100%;
+      background: #490057;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .visitor-content {
+      margin-left: 0px;
+      padding: 2%;
+      width: 100%;
+      .header {
+        justify-content: space-between;
+
+        .search-input {
+          width: 61%;
+        }
+
+        .user-account {
+          margin-right: 45px;
+        }
+      }
+
+      .user-cover-info {
+        width: 95%;
+        .user-infomation {
+          .follow-btn {
+            .btnSchedule {
+              position: absolute;
+              width: 172px;
+              height: 44.675px;
+              border: 1px solid #a303a0;
+              color: #a303a0;
+              background-color: #fff;
+              margin-left: -175px;
+              border-radius: 13px;
+            }
+          }
+        }
+        .btnEdit {
+          position: absolute;
+          width: 172px;
+          height: 44.675px;
+          border: 1px solid #a303a0;
+          color: #a303a0;
+          background-color: #fff;
+          margin-left: -230px;
+          border-radius: 13px;
+          margin-top: 199px;
+
+          &:hover {
+            background-color: #fbb03b;
+            cursor: pointer;
+          }
+        }
+        .img-cover {
+          width: 100%;
+          height: 280px;
+        }
+        .user-avatar {
+          width: 179.82px;
+          height: 179.82px;
+          flex-shrink: 0;
+          border-radius: 179.82px;
+          overflow: hidden;
+          margin-top: -133px;
+          margin-left: 56px;
+        }
+        .user-avatar img {
+          width: 100%;
+          height: 100%;
+          background-color: rgb(244, 150, 43);
+          object-fit: cover;
+        }
+      }
+
+      .main-content {
+        display: block;
+        .about-info-user {
+          height: 348px;
+          width: 95%;
+          h2 {
+            padding-top: 20px;
+            text-align: center;
+          }
+          li {
+            font-size: 23px;
+          }
+        }
+
+        .post-of-user {
+          float: right;
+          margin-top: 20px;
+          margin-right: 42px;
+        }
+
+        .recomand-friend {
+          margin-top: 20px;
+          margin-left: -3px;
+        }
+        .recomand-friend1 {
+          margin-top: 20px;
+          margin-left: 0px;
+        }
+        .recomand-friend1:last-child {
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 985px) {
+  .container {
+    .side-bar-menu-left {
+      position: fixed;
+      width: 218px;
+      height: 100%;
+      background: #490057;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .visitor-content {
+      margin-left: 0;
+      padding: 2%;
+      width: 100%;
+      .header {
+        justify-content: space-between;
+
+        .search-input {
+          width: 61%;
+        }
+
+        .user-account {
+          margin-right: 45px;
+        }
+      }
+
+      .user-cover-info {
+        width: 95%;
+        .btnEdit {
+          position: absolute;
+          width: 172px;
+          height: 44.675px;
+          border: 1px solid #a303a0;
+          color: #a303a0;
+          background-color: #fff;
+          margin-left: -230px;
+          border-radius: 13px;
+          margin-top: 199px;
+
+          &:hover {
+            background-color: #fbb03b;
+            cursor: pointer;
+          }
+        }
+        .img-cover {
+          width: 100%;
+          height: 280px;
+        }
+        .user-avatar {
+          width: 179.82px;
+          height: 179.82px;
+          flex-shrink: 0;
+          border-radius: 179.82px;
+          overflow: hidden;
+          margin-top: -133px;
+          margin-left: 56px;
+        }
+        .user-avatar img {
+          width: 100%;
+          height: 100%;
+          background-color: rgb(244, 150, 43);
+          object-fit: cover;
+        }
+      }
+
+      .main-content {
+        display: block;
+        .about-info-user {
+          height: 348px;
+          width: 95%;
+          h2 {
+            padding-top: 20px;
+            text-align: center;
+          }
+          li {
+            font-size: 23px;
+          }
+        }
+
+        .post-of-user {
+          float: right;
+          margin-top: 400px;
+          margin-right: 33px;
+          width: 95%;
+        }
+
+        .recomman-friend-container {
+          display: flex;
+          flex-direction: row;
+
+          .recomand-friend1:first-child {
+            position: absolute;
+            h1 {
+              color: #490057;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+
+            .friend {
+              margin-top: 27px;
+              display: flex;
+              .friend-img {
+                width: 34px;
+                height: 34px;
+                flex-shrink: 0;
+                border-radius: 34px;
+                background-color: rgb(96, 169, 229);
+                background-repeat: no-repeat;
+                object-fit: cover;
+              }
+
+              .friend-info {
+                margin-left: 10px;
+                h2 {
+                  color: #490057;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: bold;
+                  line-height: normal;
+                }
+                p {
+                  color: #490057;
+                  font-size: 14px;
+                  font-weight: 100;
+                }
+              }
+
+              .time-onl {
+                font-size: 12px;
+                color: #b6b2b2;
+                margin-left: 30px;
+                margin-top: 5px;
+              }
+              .friend-img {
+                .online {
+                  position: relative;
+                  top: -15px;
+                  left: 25px;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #8bc34a;
+                  border-radius: 13px;
+                  border: 3px solid #fafafa;
+                }
+                .busy {
+                  position: relative;
+                  top: -15px;
+                  left: 25px;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #ff8f6b;
+                  border-radius: 13px;
+                  border: 3px solid #fafafa;
+                }
+              }
+            }
+          }
+          .recomand-friend1:last-child {
+            right: 0;
+            position: absolute;
+            margin-right: 65px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 46.1875em) {
+  .container {
+    .visitor-content {
+      .header {
+        .user-account {
+          .user-avatar {
+          }
+        }
+      }
+
+      .user-cover-info {
+        width: 95%;
+        .user-infomation {
+          .follow-btn {
+            .btnSchedule {
+              position: absolute;
+              width: 100px;
+              height: 44.675px;
+              border: 1px solid #a303a0;
+              color: #a303a0;
+              background-color: #fff;
+              margin-left: -80px;
+              border-radius: 13px;
+            }
+          }
+        }
+        .btnEdit {
+          position: absolute;
+          width: 100px;
+          height: 44.675px;
+          border: 1px solid #a303a0;
+          color: #a303a0;
+          background-color: #fff;
+          margin-left: -135px;
+          border-radius: 13px;
+          margin-top: 199px;
+
+          &:hover {
+            background-color: #fbb03b;
+            cursor: pointer;
+          }
+        }
+        .img-cover {
+          width: 100%;
+          object-fit: cover;
+          height: 280px;
+        }
+        .user-avatar {
+          width: 149.82px;
+          height: 149.82px;
+          flex-shrink: 0;
+          border-radius: 179.82px;
+          overflow: hidden;
+          margin-top: -113px;
+          margin-left: 16px;
+        }
+        .user-avatar img {
+          width: 100%;
+          height: 100%;
+          background-color: rgb(244, 150, 43);
+          object-fit: cover;
+        }
+      }
+
+      .main-content {
+        display: block;
+        .about-info-user {
+          height: 348px;
+          width: 95%;
+          margin-top: -20px;
+          h2 {
+            padding-top: 20px;
+            text-align: center;
+          }
+          li {
+            font-size: 18px;
+          }
+        }
+
+        .post-of-user {
+          float: right;
+          margin-top: 650px;
+          margin-right: 24px;
+          width: 95%;
+          .post-content {
+            .content-post-container {
+              .img-post {
+                img {
+                  width: 90%;
+                }
+              }
+            }
+          }
+        }
+
+        .recomman-friend-container {
+          display: flex;
+          flex-direction: column;
+          .recomand-friend1:first-child {
+            position: absolute;
+            margin-top:15px;
+            margin-left:0px;
+            width:84%;
+            h1 {
+              margin-left:-20px;
+              color: #490057;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+
+            .friend {
+              margin-top: 27px;
+              margin-left:-20px;
+              display: flex;
+              .friend-img {
+                width: 34px;
+                height: 34px;
+                flex-shrink: 0;
+                border-radius: 34px;
+                background-color: rgb(96, 169, 229);
+                background-repeat: no-repeat;
+                object-fit: cover;
+              }
+
+              .friend-info {
+                margin-left: 10px;
+                h2 {
+                  color: #490057;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: bold;
+                  line-height: normal;
+                }
+                p {
+                  color: #490057;
+                  font-size: 14px;
+                  font-weight: 100;
+                }
+              }
+
+              .time-onl {
+                font-size: 12px;
+                color: #b6b2b2;
+                margin-left: 30px;
+                margin-top: 5px;
+              }
+              .friend-img {
+                .online {
+                  position: relative;
+                  top: -15px;
+                  left: 25px;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #8bc34a;
+                  border-radius: 13px;
+                  border: 3px solid #fafafa;
+                }
+                .busy {
+                  position: relative;
+                  top: -15px;
+                  left: 25px;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #ff8f6b;
+                  border-radius: 13px;
+                  border: 3px solid #fafafa;
+                }
+              }
+            }
+          }
+          .recomand-friend1:last-child {
+            
+            position: absolute;
+            margin-top:300px;
+            margin-left: 9px;
+            width:85%;
+            left:0;
+
+            h1 {
+              margin-left:-20px;
+              color: #490057;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+
+            .friend {
+              margin-top: 27px;
+              margin-left:-20px;
+              display: flex;
+              .friend-img {
+                width: 34px;
+                height: 34px;
+                flex-shrink: 0;
+                border-radius: 34px;
+                background-color: rgb(96, 169, 229);
+                background-repeat: no-repeat;
+                object-fit: cover;
+              }
+
+              .friend-info {
+                margin-left: 10px;
+                h2 {
+                  color: #490057;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: bold;
+                  line-height: normal;
+                }
+                p {
+                  color: #490057;
+                  font-size: 14px;
+                  font-weight: 100;
+                }
+              }
+
+              .time-onl {
+                font-size: 12px;
+                color: #b6b2b2;
+                margin-right: 30px;
+                margin-top: 5px;
+                position: absolute;
+                right:0;
+                
+              }
+              .friend-img {
+                .online {
+                  position: relative;
+                  top: -15px;
+                  left: 25px;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #8bc34a;
+                  border-radius: 13px;
+                  border: 3px solid #fafafa;
+                }
+                .busy {
+                  position: relative;
+                  top: -15px;
+                  left: 25px;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #ff8f6b;
+                  border-radius: 13px;
+                  border: 3px solid #fafafa;
+                }
+              }
+            }
+          
+          }
+        }
+      }
+    }
+  }
+}
