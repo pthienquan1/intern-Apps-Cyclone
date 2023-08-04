@@ -1,0 +1,18 @@
+{
+  "CreateDepartment": "Create Department",
+  "UpdateDepartment": "Update Department",
+  "DepartmentName": "Department Name",
+  "AlertError":"Empty search !!",
+  "Delete": "Delete",
+  "Update": "Update",
+  "Search": "Search",
+  "CreatedDate":"Created date: ",
+  "SearchPlaceholder": "Search by department name",
+  "TextBtnCreate": "Create department",
+  "ConfirmDelete": "Are you sure you want to delete this department?",
+  "ManageDepartments": "Manage Departments",
+  "ManageAccounts":"Manage Accounts",
+  "CreateSuccess": "Create department successfully",
+  "UpdateSuccess": "Update department successfully",
+  "DeleteSuccess": "Delete department successfully"
+}

@@ -1,0 +1,18 @@
+{
+  "CreateDepartment": "Tạo phòng ban",
+  "UpdateDepartment": "Cập nhật phòng ban",
+  "DepartmentName": "Tên phòng ban",
+  "AlertError":"Bạn chưa nhập gì vào ô search này !! ",
+  "Delete": "Xóa",
+  "Update": "Cập nhật",
+  "Search": "Tìm",
+  "CreatedDate":"Ngày tạo: ",
+  "SearchPlaceholder": "Tìm kiếm theo tên phòng ban",
+  "TextBtnCreate": "Tạo phòng ban mới",
+  "ConfirmDelete": "Bạn có chắc chắn muốn xóa phòng ban này?",
+  "ManageDepartments": "Quản lý phòng ban",
+  "ManageAccounts":"Quản lý tài khoản",
+  "CreateSuccess": "Tạo phòng ban thành công",
+  "UpdateSuccess": "Cập nhật phòng ban thành công",
+  "DeleteSuccess": "Xóa phòng ban thành công"
+}
